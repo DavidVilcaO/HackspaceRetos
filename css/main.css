@@ -78,6 +78,7 @@ body {
     background-color: #ffffff;
     box-shadow: 
     0px 4px 18px 0px rgba(96, 96, 96, 0.12);
+    border-radius: 4px;
 }
 
 .title {
@@ -98,8 +99,7 @@ nav a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
-    border: 1px solid #ffffff;
-    border-radius: 30px;
+
 
     text-align: center;
     text-decoration: none;
@@ -133,6 +133,7 @@ nav a:hover {
 .main aside {
     color: white;
     padding: 0px 5% 10px;
+
 }
 
 .footer-container footer {
