@@ -53,7 +53,11 @@ nav {
         text-decoration: none;
         color: #2e3f4a; }
       nav ul li a:hover {
-        color: #C69F73; }
+        color: #C69F73;
+        border-bottom: 1px solid #C69F73;
+        -webkit-transition: color 0.25s;
+        -o-transition: color 0.25s;
+        transition: color 0.25s; }
 
 .container {
   padding-top: 100px;

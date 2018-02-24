@@ -50,6 +50,9 @@ nav {
             }
             a:hover {
                 color: $colordorado;
+                border-bottom: 1px solid $colordorado;
+                transition: color 0.25s;
+                
             }
         }
     }
