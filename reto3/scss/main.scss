@@ -1,3 +1,4 @@
+$colordorado: #C69F73;
 * {
     padding: 0;
     margin: 0;
@@ -72,15 +73,20 @@ nav {
         list-style:none; 
         margin: 10px; 
         li {
-            padding: 10px 60px;
-            background-color: #eee;
-            margin: 10px; 
+            margin: 30px; 
+            
             a {
                 text-decoration: none; 
-                color:  #C69F73!important;
+                color: #C69F73 !important;
+                background-color: #eee;
+                padding: 10px 60px;
                 
             }          
-        }     
+        }
+            a:hover {
+                background-color: $colordorado;
+                color:black !important;
+            }    
        
     }
 }
@@ -186,6 +192,10 @@ button {
     align-items: center;
     font-family: "Open Sans", georgia, serif;
     font-size: 0.8em;
+    @media all and (max-width: 768px) {
+        flex-direction: column;
+        
+    }
     span {
         padding-left: 20px;
     }

@@ -94,12 +94,15 @@ nav {
     list-style: none;
     margin: 10px; }
     nav ul li {
-      padding: 10px 60px;
-      background-color: #eee;
-      margin: 10px; }
+      margin: 30px; }
       nav ul li a {
         text-decoration: none;
-        color: #C69F73 !important; }
+        color: #C69F73 !important;
+        background-color: #eee;
+        padding: 10px 60px; }
+    nav ul a:hover {
+      background-color: #C69F73;
+      color: black !important; }
 
 main {
   width: 760px;
@@ -188,6 +191,12 @@ button {
   align-items: center;
   font-family: "Open Sans", georgia, serif;
   font-size: 0.8em; }
+  @media all and (max-width: 768px) {
+    .footer {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
   .footer span {
     padding-left: 20px; }
   .footer ul {
