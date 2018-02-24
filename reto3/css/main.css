@@ -66,7 +66,7 @@ section {
   justify-content: space-between;
   margin: auto; }
 
-nav {
+aside {
   margin: 10px 0;
   width: 360px;
   background-color: #f8f8f8;
@@ -88,19 +88,19 @@ nav {
   justify-content: center;
   float: right; }
   @media all and (max-width: 768px) {
-    nav {
+    aside {
       width: 100%; } }
-  nav ul {
+  aside ul {
     list-style: none;
     margin: 10px; }
-    nav ul li {
+    aside ul li {
       margin: 30px; }
-      nav ul li a {
+      aside ul li a {
         text-decoration: none;
         color: #C69F73 !important;
         background-color: #eee;
         padding: 10px 60px; }
-    nav ul a:hover {
+    aside ul a:hover {
       background-color: #C69F73;
       color: black !important; }
 
