@@ -8,7 +8,43 @@ $colordorado: #C69F73;
     background-color: white;
 }
 
+
+nav {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    border-bottom: 0.5px solid #eee;
+
+    h3 {
+        padding-left: 20px;
+    }
+    ul {
+        padding-right: 20px;
+        li {
+            display: inline;
+            padding: 5px;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            a:hover {
+                color: $colordorado;
+            }
+        }
+    }
+
+}
+
+
+
+
 .container {
+    padding-top: 100px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
