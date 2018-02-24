@@ -176,6 +176,7 @@ button {
   display: flex;
   min-height: 10vh;
   width: 100%;
+  color: #C69F73;
   background-color: whitesmoke;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
