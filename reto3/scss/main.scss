@@ -175,8 +175,10 @@ button {
     margin: 15px 0px;
     line-height: 20px;
     border-color: #C69F73!important;
-    
 
+}
+button:hover {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.29);
 }
 
 

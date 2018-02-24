@@ -173,6 +173,10 @@ button {
   line-height: 20px;
   border-color: #C69F73 !important; }
 
+button:hover {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.29);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.29); }
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
