@@ -1,5 +1,6 @@
 $colordorado: #C69F73;
 $colordoradoborder: rgba(198, 159, 115, 0.29);
+$colorblue: #2e3f4a;
 * {
     padding: 0;
     margin: 0;
@@ -45,7 +46,7 @@ nav {
             padding: 5px;
             a {
                 text-decoration: none;
-                color: black;
+                color: $colorblue;
             }
             a:hover {
                 color: $colordorado;
@@ -89,7 +90,7 @@ nav {
     a {
         text-decoration: none;
         padding: 10px 40px;
-        color: black;
+        color: $colorblue;
         background: white;
         border-radius: 2px;
         font-size: 1.2em;
@@ -119,7 +120,9 @@ aside {
     @media all and (max-width: 768px) {
         width: 100%;
     }
-    
+    h3 {
+        color: $colorblue;
+    }
     ul {
         list-style:none; 
         margin: 10px; 
@@ -136,7 +139,7 @@ aside {
         }
             a:hover {
                 background-color: $colordorado;
-                color:black !important;
+                color:$colorblue !important;
             }    
        
     }
@@ -159,6 +162,7 @@ article {
     h2{
         font-size: 27px;
         margin: 15px 0px;
+        color: $colorblue;
     }
     time {
         font-size: 13px;
@@ -187,7 +191,7 @@ article {
         background-color: #DDDDDD;
         padding: 5px 20px;
         text-decoration: none;
-        color: #000000;
+        color: $colorblue;
         font-family: "Open Sans", georgia, serif;
         font-weight: lighter;
         

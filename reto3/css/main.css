@@ -51,7 +51,7 @@ nav {
       padding: 5px; }
       nav ul li a {
         text-decoration: none;
-        color: black; }
+        color: #2e3f4a; }
       nav ul li a:hover {
         color: #C69F73; }
 
@@ -102,7 +102,7 @@ nav {
   .intro a {
     text-decoration: none;
     padding: 10px 40px;
-    color: black;
+    color: #2e3f4a;
     background: white;
     border-radius: 2px;
     font-size: 1.2em; }
@@ -140,6 +140,8 @@ aside {
   @media all and (max-width: 768px) {
     aside {
       width: 100%; } }
+  aside h3 {
+    color: #2e3f4a; }
   aside ul {
     list-style: none;
     margin: 10px; }
@@ -152,7 +154,7 @@ aside {
         padding: 10px 60px; }
     aside ul a:hover {
       background-color: #C69F73;
-      color: black !important; }
+      color: #2e3f4a !important; }
 
 main {
   width: 760px;
@@ -169,7 +171,8 @@ article {
     margin-top: 10px; }
   article h2 {
     font-size: 27px;
-    margin: 15px 0px; }
+    margin: 15px 0px;
+    color: #2e3f4a; }
   article time {
     font-size: 13px;
     font-family: "Open Sans", georgia, serif; }
@@ -191,7 +194,7 @@ article {
     background-color: #DDDDDD;
     padding: 5px 20px;
     text-decoration: none;
-    color: #000000;
+    color: #2e3f4a;
     font-family: "Open Sans", georgia, serif;
     font-weight: lighter; }
   .bg-etiquetas .etiquetas:hover {
