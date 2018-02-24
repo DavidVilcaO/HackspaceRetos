@@ -21,11 +21,12 @@ nav {
   align-items: center;
   position: fixed;
   z-index: 999;
-  border-bottom: 0.5px solid #eee; }
+  border-bottom: 0.5px solid rgba(198, 159, 115, 0.29);
+  font-weight: lighter; }
   nav h3 {
-    padding-left: 20px; }
+    padding-left: 100px; }
   nav ul {
-    padding-right: 20px; }
+    padding-right: 100px; }
     nav ul li {
       display: inline;
       padding: 5px; }
