@@ -9,7 +9,9 @@ algunos puntos importantes que deseoo que conozcan.
 
 RETO 01 
 - Utilice la plantilla que recomendaron y agregue la estructura que pidieron.
+
 RETO 02 
 - Diseñe desde cero toda la cara de google no he utilizado ninguna plantilla o base.
+
 RETO 03
 - Diseñe desde cero toda la estructura y ui. 
